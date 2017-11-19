@@ -32,6 +32,23 @@ public class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.Foreca
         return viewHolder;
     }
 
+    @Override
+    public void onBindViewHolder(ForecastAdapterViewHolder holder, int position) {
+        holder.mWeatherTextView.setText(mWeatherData[position]);
+    }
+
+    @Override
+    public int getItemCount() {
+        if (mWeatherData == null) return 0;
+
+        return mWeatherData.length;
+    }
+
+    public void setWeatherData(String[] mWeatherData) {
+        this.mWeatherData = mWeatherData;
+        notifyDataSetChanged();
+    }
+
     class ForecastAdapterViewHolder extends RecyclerView.ViewHolder {
         public final TextView mWeatherTextView;
 
