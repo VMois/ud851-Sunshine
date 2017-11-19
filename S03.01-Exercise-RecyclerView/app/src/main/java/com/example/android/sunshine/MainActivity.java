@@ -65,11 +65,11 @@ public class MainActivity extends AppCompatActivity {
 
     // DONE - TODO (19) Create a constructor for this class that accepts a View as a parameter
     // DONE - TODO (20) Call super(view) within the constructor for ForecastAdapterViewHolder
-    // TODO (21) Using view.findViewById, get a reference to this layout's TextView and save it to mWeatherTextView
+    // DONE - TODO (21) Using view.findViewById, get a reference to this layout's TextView and save it to mWeatherTextView
     // Within ForecastAdapterViewHolder ///////////////////////////////////////////////////////////
 
 
-    // TODO (24) Override onCreateViewHolder
+    // DONE - TODO (24) Override onCreateViewHolder
     // TODO (25) Within onCreateViewHolder, inflate the list item xml into a view
     // TODO (26) Within onCreateViewHolder, return a new ForecastAdapterViewHolder with the above view passed in as a parameter
 
