@@ -34,37 +34,37 @@ import java.net.URL;
 public class MainActivity extends AppCompatActivity {
 
     // Within forecast_list_item.xml //////////////////////////////////////////////////////////////
-    // TODO (5) Add a layout for an item in the list called forecast_list_item.xml
-    // TODO (6) Make the root of the layout a vertical LinearLayout
-    // TODO (7) Set the width of the LinearLayout to match_parent and the height to wrap_content
+    // DONE - TODO (5) Add a layout for an item in the list called forecast_list_item.xml
+    // DONE - TODO (6) Make the root of the layout a vertical LinearLayout
+    // DONE - TODO (7) Set the width of the LinearLayout to match_parent and the height to wrap_content
 
-    // TODO (8) Add a TextView with an id @+id/tv_weather_data
-    // TODO (9) Set the text size to 22sp
-    // TODO (10) Make the width and height wrap_content
-    // TODO (11) Give the TextView 16dp of padding
+    // DONE - TODO (8) Add a TextView with an id @+id/tv_weather_data
+    // DONE - TODO (9) Set the text size to 22sp
+    // DONE - TODO (10) Make the width and height wrap_content
+    // DONE - TODO (11) Give the TextView 16dp of padding
 
-    // TODO (12) Add a View to the layout with a width of match_parent and a height of 1dp
-    // TODO (13) Set the background color to #dadada
-    // TODO (14) Set the left and right margins to 8dp
+    // DONE - TODO (12) Add a View to the layout with a width of match_parent and a height of 1dp
+    // DONE - TODO (13) Set the background color to #dadada
+    // DONE - TODO (14) Set the left and right margins to 8dp
     // Within forecast_list_item.xml //////////////////////////////////////////////////////////////
 
 
     // Within ForecastAdapter.java /////////////////////////////////////////////////////////////////
-    // TODO (15) Add a class file called ForecastAdapter
-    // TODO (22) Extend RecyclerView.Adapter<ForecastAdapter.ForecastAdapterViewHolder>
+    // DONE - TODO (15) Add a class file called ForecastAdapter
+    // DONE - TODO (22) Extend RecyclerView.Adapter<ForecastAdapter.ForecastAdapterViewHolder>
 
-    // TODO (23) Create a private string array called mWeatherData
+    // DONE - TODO (23) Create a private string array called mWeatherData
 
-    // TODO (47) Create the default constructor (we will pass in parameters in a later lesson)
+    // DONE - TODO (47) Create the default constructor (we will pass in parameters in a later lesson)
 
-    // TODO (16) Create a class within ForecastAdapter called ForecastAdapterViewHolder
-    // TODO (17) Extend RecyclerView.ViewHolder
+    // DONE - TODO (16) Create a class within ForecastAdapter called ForecastAdapterViewHolder
+    // DONE - TODO (17) Extend RecyclerView.ViewHolder
 
     // Within ForecastAdapterViewHolder ///////////////////////////////////////////////////////////
-    // TODO (18) Create a public final TextView variable called mWeatherTextView
+    // DONE - TODO (18) Create a public final TextView variable called mWeatherTextView
 
-    // TODO (19) Create a constructor for this class that accepts a View as a parameter
-    // TODO (20) Call super(view) within the constructor for ForecastAdapterViewHolder
+    // DONE - TODO (19) Create a constructor for this class that accepts a View as a parameter
+    // DONE - TODO (20) Call super(view) within the constructor for ForecastAdapterViewHolder
     // TODO (21) Using view.findViewById, get a reference to this layout's TextView and save it to mWeatherTextView
     // Within ForecastAdapterViewHolder ///////////////////////////////////////////////////////////
 
